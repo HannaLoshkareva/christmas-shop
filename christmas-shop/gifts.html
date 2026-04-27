@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/icon/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container-wrapper">
+      <header class="header">
+        <div class="head-container">
+          <div class="logo">
+            <a href="index.html">
+              <img class="logo-vector" src="assets/logo.png" alt="Snowflake" />
+              <h1 class="logo-title">The gifts</h1>
+            </a>
+          </div>
+
+          <nav id="menu" class="navbar">
+            <button class="burger" id="burger">
+              <span></span>
+              <span></span>
+            </button>
+
+            <ul class="nav-list gifts-nav-list" id="menu-list">
+              <li>
+                <a class="menu-item gifts-page-first-menu-item" href=""
+                  >Gifts</a
+                >
+              </li>
+              <li><a class="menu-item" href="index.html#about">About</a></li>
+              <li><a class="menu-item" href="index.html#best">Best</a></li>
+              <li><a class="menu-item" href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <button id="back-to-top" class="back-to-top">
+          <svg
+            class="arrow-icon"
+            width="14"
+            height="13"
+            viewBox="0 0 14 13"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.5 6.5H13M13 6.5L7 0.5M13 6.5L7 12.5"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+
+        <section id="best" class="best-gifts-section gifts-section">
+          <div class="best-gifts-container gifts-main-container">
+            <div class="best-gifts-caption-container gifts-caption-container">
+              <h2 class="h1-style">
+                Achieve health, harmony, and inner strength
+              </h2>
+            </div>
+
+            <div class="gifts-tabs">
+              <ul>
+                <li>
+                  <button class="gift-tag active" data-category="all">
+                    All
+                  </button>
+                </li>
+                <li>
+                  <button class="gift-tag" data-category="For Work">
+                    For work
+                  </button>
+                </li>
+                <li>
+                  <button class="gift-tag" data-category="For Health">
+                    For health
+                  </button>
+                </li>
+                <li>
+                  <button class="gift-tag" data-category="For Harmony">
+                    For harmony
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="best-gifts-cards-container gifts-cards-container"></div>
+        </section>
+      </main>
+
+      <footer id="contacts" class="footer">
+        <div class="footer-container">
+          <div class="contacts-container">
+            <div class="contact-item">
+              <a href="tel:+375291112233">
+                <img src="assets/santa-claus.svg" alt="Santa Claus" />
+                <div class="contact-action">+375 (29) 111-22-33</div>
+                <h3>Call Us</h3>
+              </a>
+            </div>
+
+            <div class="contact-item">
+              <a href="mailto:gift@gmail.com">
+                <img src="assets/christmas-tree.svg" alt="Christmas Tree" />
+                <div class="contact-action">Magic forest</div>
+                <h3>Meet Us</h3>
+              </a>
+            </div>
+
+            <div class="contact-item">
+              <a
+                href="https://maps.app.goo.gl/6SMbEBYvNkVajpGfA"
+                title="Map"
+                target="_blank"
+              >
+                <img src="assets/snake.svg" alt="Snake" />
+                <div class="contact-action">gifts@magic.com</div>
+                <h3>Write Us</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="info-container">
+            <div class="social-list">
+              <ul>
+                <li>
+                  <a
+                    href=""
+                    class="social-item"
+                    title="Telegram"
+                    target="_blank"
+                  >
+                    <svg
+                      class="telegram"
+                      width="21"
+                      height="17"
+                      viewBox="0 0 21 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.7501 0.75L0.750061 8.25L7.75006 9.25M19.7501 0.75L17.2501 15.75L7.75006 9.25M19.7501 0.75L7.75006 9.25M7.75006 9.25V14.75L10.9989 11.4729"
+                        stroke="#181C29"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href=""
+                    class="social-item"
+                    title="Facebook"
+                    target="_blank"
+                  >
+                    <svg
+                      class="facebook"
+                      width="13"
+                      height="22"
+                      viewBox="0 0 13 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.75 0.75H8.75C7.42392 0.75 6.15215 1.27678 5.21447 2.21447C4.27678 3.15215 3.75 4.42392 3.75 5.75V8.75H0.75V12.75H3.75V20.75H7.75V12.75H10.75L11.75 8.75H7.75V5.75C7.75 5.48478 7.85536 5.23043 8.04289 5.04289C8.23043 4.85536 8.48478 4.75 8.75 4.75H11.75V0.75Z"
+                        stroke="#181C29"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href=""
+                    class="social-item"
+                    title="Instagram"
+                    target="_blank"
+                  >
+                    <svg
+                      class="instagram"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                        stroke="#181C29"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                        stroke="#181C29"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        d="M17.5 6.51L17.51 6.49889"
+                        stroke="#181C29"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="social-item" title="X" target="_blank">
+                    <svg
+                      class="x"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.8198 20.7684L3.75317 3.96836C3.44664 3.57425 3.72749 3 4.22678 3H6.70655C6.8917 3 7.06649 3.08548 7.18016 3.23164L20.2468 20.0316C20.5534 20.4258 20.2725 21 19.7732 21H17.2935C17.1083 21 16.9335 20.9145 16.8198 20.7684Z"
+                        stroke="#181C29"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        d="M20 3L4 21"
+                        stroke="#181C29"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <p class="copyright">© Copyright 2025, All Rights Reserved</p>
+            <div class="info-caption">
+              <a class="garland-link" href="https://rs.school/" target="_blank">
+                Made in Rolling Scopes School
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <dialog class="modal-window-gifts"></dialog>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
